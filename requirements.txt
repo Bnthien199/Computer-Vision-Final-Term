@@ -1,0 +1,11 @@
+# Webcam demo, Windows x64 / Python 3.11. See requirements-lock.txt for tested closure.
+numpy==1.26.4
+opencv-contrib-python==4.11.0.86
+mediapipe==0.10.21
+tensorflow==2.15.0
+scikit-learn==1.9.1
+joblib==1.6.0
+matplotlib==3.11.2
+# MediaPipe requires JAX; these versions also accept TensorFlow's ml-dtypes==0.2.0.
+jax==0.4.23
+jaxlib==0.4.23

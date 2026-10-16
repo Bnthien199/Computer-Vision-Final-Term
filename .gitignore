@@ -218,3 +218,34 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# PoseFit: local datasets, diagnostics and environments (never publish).
+.venv*/
+external_datasets/
+.eval_tools/
+archive/
+12773013/
+standing_raw/
+backups/
+runs/
+test_output/
+metadata.csv
+pose_features.csv
+*.npy
+*.npz
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.bak
+*.tmp
+*.jsonl
+*.pem
+*.key
+# Only the three reviewed inference artifacts are versioned.
+models/*
+!models/mlp_posefit_final.keras
+training_data/*
+!training_data/scaler.pkl
+!training_data/label_encoder.pkl

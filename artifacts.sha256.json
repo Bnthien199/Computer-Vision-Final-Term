@@ -1,0 +1,5 @@
+{
+  "models/mlp_posefit_final.keras": "3f1e6dd06913240760d07433257a5bda57601a9c1e65c7d180d3f43b5739ec76",
+  "training_data/scaler.pkl": "cb9c8cc064d551a2c5da5dd0d1420fcc65df90be44c60c4c6b251e6f12ff5146",
+  "training_data/label_encoder.pkl": "53d1842def5d37f34156986de6e519f6c146ddb5946cee15536f8d0a0d05cbfd"
+}
